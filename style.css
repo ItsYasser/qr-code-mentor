@@ -1,0 +1,77 @@
+blue-background {
+  /* height: 200px;
+  width: 200px; */
+  color: #2c7dfa;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#white-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: white; /* assuming you want a white background */
+  padding-top: 17px;
+  border-radius: 20px; /* optional: to round the corners */
+  height: 497px;
+  width: 320px;
+}
+
+.improve {
+  font-size: 22px;
+  color: #1f314f;
+  font-family: "Outfit";
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle {
+  color: #7d889e;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Outfit";
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+img {
+  display: block;
+  max-width: 100%; /* ensure the image is responsive */
+  height: auto;
+  border-radius: 10px;
+}
+
+.outfit-font {
+  text-align: center;
+  margin-top: 10px; /* space between image and text */
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+img {
+  border-radius: 10px;
+  margin: auto;
+}
+
+.text-container {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+}
